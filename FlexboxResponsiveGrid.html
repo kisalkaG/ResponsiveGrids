@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="StyleForResponsiveGrid.css">
+
+    <!-- <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .header {
+            background-color: black;
+            height: 100px;
+            margin: 10px;
+        }
+
+        .footer {
+            background-color: maroon;
+            height: 60px;
+            margin: 10px;
+        }
+
+        .box {
+            height: 100px;
+            margin: 10px;
+            background-color: blue;
+            text-align: center;
+            padding: 35px;
+            font-size: 30px;
+            color: white;
+        }
+
+        .main {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .row1 {
+            display: flex;
+        }
+
+        .row2 {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .abc {
+            flex: 1;
+        }
+
+        .bcd {
+            flex: 1;
+        }
+        @media screen and (max-width: 700px) {
+            .tab-cls1 {
+                flex: 1/2;
+            }
+
+            .tab-cls2 {
+                flex: 1/2;
+            }
+
+            .tab-cls3 {
+                flex: 100%;
+            }
+        }
+
+        @media screen and (max-width: 400px) {
+            .row1 , .row2 {
+                flex-direction: column;
+            }
+        }
+    </style> -->
+</head>
+
+<body>
+    <div class="header"> </div>
+
+    <div class="main">
+        <div class="row1">
+            <div class="box abc">1</div>
+            <div class="box abc">2</div>
+        </div>
+        <div class="row2">
+            <div class="box abc tab-cls1">3</div>
+            <div class="box abc tab-cls1">4</div>
+            <div class="box abc tab-cls3">5</div>
+        </div>
+        <div class="row3">
+            <div class="box ">6</div>
+        </div>
+    </div>
+
+    <div class="footer"> </div>
+
+</body>
+
+</html>
